@@ -1,5 +1,3 @@
-# Code-your-first-ML-model-from-scratch
-Data Science Playground readme (1).md 
 # Code your First Machine Learning Model
 In this lab session you are a Data Scientist who has been tasked with trying to develop a Model to be able to recognise hand written single digits (0-9) using Machine Learning. We will have a dataset known as  "MNIST Handwritten Digit" which has 70,000 (28x28) different pictures of handwritten digits.
 Our task for today will be Loading the dataset, viewing the data, training an ML model and then finally testing the model to see how well it performs.
