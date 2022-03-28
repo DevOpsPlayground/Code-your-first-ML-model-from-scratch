@@ -12,7 +12,7 @@ Before we start with the labs code there will be a few open source Python packag
 | Seaborn   | seaborn is another Python library used for plotting graphs and figures (similar to matplotlib) | https://seaborn.pydata.org/
 ## MNIST (Modified National Institute of Standards and Technology database) Data
 We can now move on to downloading our dataset for the lab. Luckily for us, the data is open source and it is conviently included in the sklearn package. From sklearn we can use the 'fetch_openml' function which will allow us to import our image data. We specify that we want the 'mnist_784' dataset which contains our 70,000 28x28 handwritten images.
-![image.png](attachment:image.png)
+![image.png](./image.png)
 ```python
 from sklearn.datasets import fetch_openml
 mnist = fetch_openml('mnist_784', version=1, as_frame=False)
