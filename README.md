@@ -29,7 +29,7 @@ We can now move on to downloading our dataset for the lab. Luckily for us, the d
 
 ```python
 from sklearn.datasets import fetch_openml
-mnist = fetc )
+mnist = fetch_openml('mnist_784', version=1, as_frame=False)
 ```
 
 This data is loaded in as a dictionary, with a bunch of extra data. For our labs we are only interested in 'data' which contains the pixel data of the image and 'target' which contains the labels for the image (0-9).
@@ -210,7 +210,7 @@ Lets use Pandas to put our data into a table and have a deeper look at the predi
 
 
 ```python
-df = pd.DataFrame(data={'Predictions':y_test,'Real':predictions})
+df = pd.DataFrame(data={'Predictions':predictions,'Real':y_test})
 ```
 
 Showing the top 20 rows of our table
@@ -222,5 +222,5 @@ df.head(20)
 
 
 ```python
-plot_digit(X_test[8])
+plot_digit(X_test[])
 ```
