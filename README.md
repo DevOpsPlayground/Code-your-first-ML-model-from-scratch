@@ -224,8 +224,3 @@ df.head(20)
 ```python
 plot_digit(X_test[8])
 ```
-
-
-```python
-
-```
